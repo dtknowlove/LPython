@@ -13,7 +13,7 @@ def Dowload(url,pattern,picDir):
 		except requests.exceptions.ConnectionError:
 			print('[错误：图片无法下载]')
 			continue
-		fileName=picDir+'/pictures_'+str(i)+'.jpg'	
+		fileName=picDir+'/pictures_'+str(i)+each[each.rfind('.'):]
 		fp=open(fileName,'wb')
 		fp.write(pic.content)
 		fp.close()
