@@ -5,7 +5,10 @@ from com.android.monkeyrunner import MonkeyRunner,MonkeyDevice
 import random
 
 NewsCount=3
-NewsVideoTime=1  #30分钟
+StudyVideoCount=6
+
+XinwenlianboTime=20  #30分钟
+ShortVideoTime=1
 
 packageName="cn.xuexi.android"
 mainActivity="%s/com.alibaba.android.rimet.biz.SplashActivity"%packageName
@@ -65,23 +68,60 @@ def ReadNews(count=1,singletime=1):
 		MonkeyRunner.sleep(2)						
 		print("下一条。。。")
 
-def EnterVideoContent(stayTime=3):
-	Tap(753,1650)
-	time.sleep(stayTime*60)
-	Back()
-
-def StudyVideo():
-	for x in range(0,6):
-		EnterVideoContent()
-		Swipe()
-
-
 def UpdateNew(pos,tip):
 	print("刷%s..."%tip)
 	Tap(pos[0],pos[1])
 	MonkeyRunner.sleep(2)
 	ReadNews(count=NewsCount)
 	print("刷%send"%tip)
+
+#新闻联播
+def ReadNewVideo():
+	Tap(1020,2700)
+	MonkeyRunner.sleep(2)
+	Tap(753,353)
+	MonkeyRunner.sleep(2)
+	lastImg=device.takeSnapshot()
+	Tap(690,760)
+	timer=0;
+	maxTime=XinwenlianboTime*60
+	while timer<maxTime:
+		curImg=device.takeSnapshot()
+		if(curImg.sameAs(lastImg,0.9)):
+			print("视频结束了！")
+			return
+		else:
+			lastImg=curImg
+			timer+=3
+			MonkeyRunner.sleep(3)
+	print("时间到了！")
+
+def StudyVideo(count):
+	Tap(1020,2700)
+	MonkeyRunner.sleep(2)
+	Tap(753,353)
+	MonkeyRunner.sleep(2)
+	for x in range(0,count):	
+		Tap(753,1650)
+		lastImg=device.takeSnapshot()	
+		MonkeyRunner.sleep(2)
+		timer=0;
+		maxTime=ShortVideoTime*60
+		while timer<=maxTime:
+			curImg=device.takeSnapshot()
+			if(curImg.sameAs(lastImg,0.9)):
+				print("视频结束了！")
+				break
+			else:
+				lastImg=curImg
+				timer+=3
+				MonkeyRunner.sleep(3)
+		if timer>maxTime:
+			print("时间到了！")
+		Back()
+		MonkeyRunner.sleep(2)	
+		Swipe()
+		MonkeyRunner.sleep(2)	
 
 OpenApp()
 
@@ -90,20 +130,15 @@ UpdateNew((330,330),"要闻")
 MonkeyRunner.sleep(5)
 #刷时政综合
 UpdateNew((994,330),"时政综合")
+MonkeyRunner.sleep(5)
 
-# #新闻联播
-# def ReadNewVideo():
-# 	Tap(1044,2700)
-# 	Tap(753,353)
-# 	time.sleep(2)
-# 	Tap(690,760)
-# 	time.sleep(NewsVideoTime*60)
-# print("看新闻联播...")
-# ReadNewVideo()
-# print("看新闻联播end")
+print("看新闻联播...")
+ReadNewVideo()
+print("看新闻联播end")
+MonkeyRunner.sleep(5)	
 
-# #视频
-# print("看视频...")
-# StudyVideo()
-# print("看视频end")
+#视频
+print("看视频...")
+StudyVideo(StudyVideoCount)
+print("看视频end")
 
