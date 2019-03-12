@@ -4,7 +4,7 @@ import time
 from com.android.monkeyrunner import MonkeyRunner,MonkeyDevice
 import random
 
-NewsCount=3
+NewsCount=30
 StudyVideoCount=6
 
 XinwenlianboTime=20  #30分钟
@@ -44,7 +44,7 @@ def ReadNews(count=1,singletime=1):
 	for x in range(0,count):
 		Tap(740,750)
 		MonkeyRunner.sleep(2)
-		maxTime=singletime*3
+		maxTime=singletime*60
 		timer=0
 		while timer<=maxTime:
 			timer+=1
@@ -58,14 +58,15 @@ def ReadNews(count=1,singletime=1):
 				MonkeyRunner.sleep(2)
 				Swipe()
 				MonkeyRunner.sleep(2)
-				return
+				break
 			else:
 				lastImg=curImg
-		print("时间到了~")	
-		Back()
-		MonkeyRunner.sleep(2)
-		Swipe()
-		MonkeyRunner.sleep(2)						
+		if(timer>maxTime):
+			print("时间到了~")	
+			Back()
+			MonkeyRunner.sleep(2)
+			Swipe()
+			MonkeyRunner.sleep(2)						
 		print("下一条。。。")
 
 def UpdateNew(pos,tip):
@@ -123,19 +124,19 @@ def StudyVideo(count):
 		Swipe()
 		MonkeyRunner.sleep(2)	
 
-OpenApp()
+# OpenApp()
 
-#刷要闻
-UpdateNew((330,330),"要闻")
-MonkeyRunner.sleep(5)
+# #刷要闻
+# UpdateNew((330,330),"要闻")
+# MonkeyRunner.sleep(5)
 #刷时政综合
-UpdateNew((994,330),"时政综合")
-MonkeyRunner.sleep(5)
+# UpdateNew((994,330),"时政综合")
+# MonkeyRunner.sleep(5)
 
-print("看新闻联播...")
-ReadNewVideo()
-print("看新闻联播end")
-MonkeyRunner.sleep(5)	
+# print("看新闻联播...")
+# ReadNewVideo()
+# print("看新闻联播end")
+# MonkeyRunner.sleep(5)	
 
 #视频
 print("看视频...")
