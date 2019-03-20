@@ -124,14 +124,14 @@ def StudyVideo(count):
 		Swipe()
 		MonkeyRunner.sleep(2)	
 
-# OpenApp()
+OpenApp()
 
 # #刷要闻
 # UpdateNew((330,330),"要闻")
 # MonkeyRunner.sleep(5)
-#刷时政综合
-# UpdateNew((994,330),"时政综合")
-# MonkeyRunner.sleep(5)
+# 刷时政综合
+UpdateNew((994,330),"时政综合")
+MonkeyRunner.sleep(5)
 
 # print("看新闻联播...")
 # ReadNewVideo()

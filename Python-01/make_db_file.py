@@ -1,0 +1,38 @@
+dbfilename='people-file'
+ENDDB='enddb'
+ENDREC='endrec'
+RECSEP='=>'
+
+def storeDbase(db,dbfilename=dbfilename):
+	dbfile=open(dbfilename,'w')
+	# print("将数据库格式化保存为普通文件\n",file=dbfile)
+	for key in db:
+		print(key,file=dbfile)
+		for (name,value) in db[key].items():
+			print(name+RECSEP+repr(value),file=dbfile)
+		print(ENDREC,file=dbfile)
+	print(ENDDB,file=dbfile)
+	dbfile.close()
+
+def loadDbase(dbfilename=dbfilename):
+	"解析数据，重新构建数据库"
+	dbfile=open(dbfilename)
+	import sys
+	sys.stdin=dbfile
+	db={}
+	key=input()
+	while key!=ENDDB:
+		rec={}
+		field=input()
+		while field != ENDREC:
+			name,value = field.split(RECSEP)
+			rec[name]=eval(value)
+			field=input()
+		db[key]=rec
+		key=input()
+	return db
+
+if __name__ == '__main__':
+	print("走了吗？")
+	from initdata import db
+	storeDbase(db)
