@@ -6,5 +6,6 @@ class Manager(Person):
 		return self.pay
 if __name__ == '__main__':
 	tom=Manager('Tom Done',50,50000)
+	print(tom)
 	print(tom.lastName())
 	print(tom.giveRaise(0.2))

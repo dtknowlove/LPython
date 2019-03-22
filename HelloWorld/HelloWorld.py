@@ -1,3 +1,4 @@
+#encoding:utf-8
 print("i\'m \"OK\"")
 
 a=123

@@ -33,6 +33,5 @@ def loadDbase(dbfilename=dbfilename):
 	return db
 
 if __name__ == '__main__':
-	print("走了吗？")
 	from initdata import db
 	storeDbase(db)
