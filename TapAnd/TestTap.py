@@ -8,7 +8,7 @@ NewsCount=30
 StudyVideoCount=6
 
 XinwenlianboTime=20  #30分钟
-ShortVideoTime=1
+ShortVideoTime=10
 
 packageName="cn.xuexi.android"
 mainActivity="%s/com.alibaba.android.rimet.biz.SplashActivity"%packageName

@@ -13,5 +13,4 @@ def more(text,numlines=15):
 			break
 if __name__ == '__main__':
 	import sys
-	print(sys.__doc__)
 	more(open(sys.argv[1]).read(),10)
