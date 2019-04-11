@@ -2,6 +2,7 @@
 import os
 import time 
 from com.android.monkeyrunner import MonkeyRunner,MonkeyDevice
+# from com.android.monkeyrunner.recorder import MonkeyRecorder as recorder
 import random
 
 NewsCount=30
@@ -15,11 +16,12 @@ mainActivity="%s/com.alibaba.android.rimet.biz.SplashActivity"%packageName
 
 #连接设备
 device=MonkeyRunner.waitForConnection()
+# recorder.start(device)
 
 def OpenApp():
 	device.startActivity(component=mainActivity)
 	#跳过片头动画
-	MonkeyRunner.sleep(3)
+	MonkeyRunner.sleep(10)
 def CloseApp():
 	os.system("adb shell am force-stop %s"%packageName)
 
@@ -30,9 +32,9 @@ def Home():
 def Tap(x,y):
 	device.touch(x, y, "DOWN_AND_UP");
 
-def Swipe(distance=300,ran=False):
-	x=1000
-	y=2200
+def Swipe(distance=100,ran=False):
+	x=800
+	y=1800
 	if ran:
 		t=random.randint(3,8)*0.01
 	else:
@@ -78,12 +80,12 @@ def UpdateNew(pos,tip):
 
 #新闻联播
 def ReadNewVideo():
-	Tap(1020,2700)
+	Tap(1000,2898)
 	MonkeyRunner.sleep(2)
-	Tap(753,353)
+	Tap(414,185)
 	MonkeyRunner.sleep(2)
 	lastImg=device.takeSnapshot()
-	Tap(690,760)
+	Tap(652,600)
 	timer=0;
 	maxTime=XinwenlianboTime*60
 	while timer<maxTime:
@@ -98,12 +100,12 @@ def ReadNewVideo():
 	print("时间到了！")
 
 def StudyVideo(count):
-	Tap(1020,2700)
+	Tap(1000,2898)
 	MonkeyRunner.sleep(2)
-	Tap(753,353)
+	Tap(108,185)
 	MonkeyRunner.sleep(2)
 	for x in range(0,count):	
-		Tap(753,1650)
+		Tap(660,518)
 		lastImg=device.takeSnapshot()	
 		MonkeyRunner.sleep(2)
 		timer=0;
@@ -130,13 +132,13 @@ OpenApp()
 # UpdateNew((330,330),"要闻")
 # MonkeyRunner.sleep(5)
 # 刷时政综合
-UpdateNew((994,330),"时政综合")
+UpdateNew((994,185),"时政综合")
 MonkeyRunner.sleep(5)
 
-# print("看新闻联播...")
-# ReadNewVideo()
-# print("看新闻联播end")
-# MonkeyRunner.sleep(5)	
+print("看新闻联播...")
+ReadNewVideo()
+print("看新闻联播end")
+MonkeyRunner.sleep(5)	
 
 #视频
 print("看视频...")
