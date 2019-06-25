@@ -1,0 +1,9 @@
+Hello stream world
+Enter a number>22 squared is 484
+Enter a number>3 squared is 9
+Enter a number>44 squared is 1936
+Enter a number>55 squared is 3025
+Enter a number>66 squared is 4356
+Enter a number>3 squared is 9
+Enter a number>4 squared is 16
+Enter a number>Bye
