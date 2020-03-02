@@ -1,0 +1,203 @@
+{
+    "abInfos": [
+        {
+            "name": "blokbuild_audio",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Audio/audio_assemble.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Audio/audio_assemblecomplete.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Audio/audio_bgm.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Audio/audio_button.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Audio/audio_page_slide.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Audio/audio_qichu.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Audio/audio_room.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Audio/audio_santa.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Audio/audio_universe.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Audio/MidBgm.mp3"
+            ]
+        },
+        {
+            "name": "blokbuild_chatoulianjie",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_chatoulianjie/chatoulianjie.atlas.txt",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_chatoulianjie/chatoulianjie.json",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_chatoulianjie/chatoulianjie.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_chatoulianjie/chatoulianjie_Atlas.asset",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_chatoulianjie/chatoulianjie_Material.mat",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_chatoulianjie/chatoulianjie_SkeletonData.asset"
+            ]
+        },
+        {
+            "name": "blokbuild_gameconfigdata",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokBuild_GameConfigData/GuideData.json"
+            ]
+        },
+        {
+            "name": "blokbuild_gameprefab",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_GamePrefab/BlockBuildComplete.prefab",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_GamePrefab/BlockParts.prefab",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_GamePrefab/GamePlay.prefab"
+            ]
+        },
+        {
+            "name": "blokbuild_img_morebuildintro",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_MoreBuildIntro/img_battery_01.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_MoreBuildIntro/img_battery_02.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_MoreBuildIntro/img_battery_DG01.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_MoreBuildIntro/img_battery_DG02.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_MoreBuildIntro/img_battery_DG03.png"
+            ]
+        },
+        {
+            "name": "blokbuild_img_playbg",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_PlayBg/playbg_room.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_PlayBg/playbg_universe.png"
+            ]
+        },
+        {
+            "name": "blokbuild_img_stepintro",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_StepIntro/daxingxing.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_StepIntro/img_intro1.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_StepIntro/pangxie.png"
+            ]
+        },
+        {
+            "name": "blokbuild_img_uihelpcontent",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_UIHelpContent/icon_button_blue.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_UIHelpContent/icon_button_laststep.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_UIHelpContent/icon_button_nextstep.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_UIHelpContent/icon_button_ok.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/UIImage/BlokBuild_Img_UIHelpContent/icon_button_yellow.png"
+            ]
+        },
+        {
+            "name": "blokbuild_lvdai",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_lvdai/lvdai.atlas.txt",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_lvdai/lvdai.json",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_lvdai/lvdai.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_lvdai/lvdai_Atlas.asset",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_lvdai/lvdai_Material.mat",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_lvdai/lvdai_SkeletonData.asset"
+            ]
+        },
+        {
+            "name": "blokbuild_lvdai2",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_lvdai2/lvdai2.atlas.txt",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_lvdai2/lvdai2.json",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_lvdai2/lvdai2.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_lvdai2/lvdai2_Atlas.asset",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_lvdai2/lvdai2_Material.mat",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_lvdai2/lvdai2_SkeletonData.asset"
+            ]
+        },
+        {
+            "name": "blokbuild_purplewanou",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_purplewanou/purplewanou.atlas.txt",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_purplewanou/purplewanou.json",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_purplewanou/purplewanou.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_purplewanou/purplewanou_Atlas.asset",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_purplewanou/purplewanou_Material.mat",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_purplewanou/purplewanou_SkeletonData.asset"
+            ]
+        },
+        {
+            "name": "blokbuild_redwanou",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_redwanou/redwanou.atlas.txt",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_redwanou/redwanou.json",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_redwanou/redwanou.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_redwanou/redwanou_Atlas.asset",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_redwanou/redwanou_Material.mat",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_redwanou/redwanou_SkeletonData.asset"
+            ]
+        },
+        {
+            "name": "blokbuild_room_audio",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Room_Audio/albart_park.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Room_Audio/antalya.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Room_Audio/egypt.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Room_Audio/eiffel.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Room_Audio/elizabeth_tower.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Room_Audio/oriental_pearl.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Room_Audio/pisa.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Room_Audio/statue_of_liberty.mp3",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/Audio/BlokBuild_Room_Audio/taj_mahal.mp3"
+            ]
+        },
+        {
+            "name": "blokbuild_shouzhidonghua",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_shouzhidonghua/shouzhidonghua.atlas.txt",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_shouzhidonghua/shouzhidonghua.json",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_shouzhidonghua/shouzhidonghua.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_shouzhidonghua/shouzhidonghua_Atlas.asset",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_shouzhidonghua/shouzhidonghua_Material.mat",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_shouzhidonghua/shouzhidonghua_SkeletonData.asset"
+            ]
+        },
+        {
+            "name": "blokbuild_spineprefabs",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_SpinePrefabs/Blocks.prefab",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_SpinePrefabs/RoomFireworks.prefab",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_SpinePrefabs/RoomJump.prefab",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_SpinePrefabs/Speek.prefab",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_SpinePrefabs/UIRoomTravel.prefab"
+            ]
+        },
+        {
+            "name": "blokbuild_uiprefab",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_UIPrefab/UIBlock3DParts.prefab",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_UIPrefab/UIBuildGuide.prefab",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_UIPrefab/UIBuildMoreIntroPanel.prefab",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_UIPrefab/UICarPartsList.prefab",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_UIPrefab/UIModelDone.prefab",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_UIPrefab/UIPlay.prefab",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/BlokPrefab/BlokBuild_UIPrefab/UIPlayThemeMenu.prefab"
+            ]
+        },
+        {
+            "name": "blokbuild_whitewanou",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_whitewanou/whitewanou.atlas.txt",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_whitewanou/whitewanou.json",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_whitewanou/whitewanou.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_whitewanou/whitewanou_Atlas.asset",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_whitewanou/whitewanou_Material.mat",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/SpriteAnim/BlokBuild_whitewanou/whitewanou_SkeletonData.asset"
+            ]
+        },
+        {
+            "name": "blokbuild_zhukong",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_zhukong/zhukong.atlas.txt",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_zhukong/zhukong.json",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_zhukong/zhukong.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_zhukong/zhukong_Atlas.asset",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_zhukong/zhukong_Material.mat",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_zhukong/zhukong_SkeletonData.asset"
+            ]
+        },
+        {
+            "name": "blokbuild_zhukong2",
+            "assets": [
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_zhukong2/zhukong2.atlas.txt",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_zhukong2/zhukong2.json",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_zhukong2/zhukong2.png",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_zhukong2/zhukong2_Atlas.asset",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_zhukong2/zhukong2_Material.mat",
+                "Assets/Game_BlokBuild/ArtRes/AssetBundles/SpineData/IntorAnim/BlokBuild_zhukong2/zhukong2_SkeletonData.asset"
+            ]
+        }
+    ]
+}

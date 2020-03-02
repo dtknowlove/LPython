@@ -1,0 +1,299 @@
+{
+    "resversion": "101",
+    "items": [
+        {
+            "name": "AB_BlokBuild_Android",
+            "path": "AB_BlokBuild_Android/AB_BlokBuild_Android",
+            "hash": "957e96cbe8ef4a1954ba8047f2d95fc9",
+            "size": 2165
+        },
+        {
+            "name": "Tech_ArmorHammer",
+            "path": "AB_BlokBuild_Android/Tech_ArmorHammer.mp4",
+            "hash": "a367cf76d603bb3e1377240b15f51d5",
+            "size": 2040910
+        },
+        {
+            "name": "Tech_Astronaut2",
+            "path": "AB_BlokBuild_Android/Tech_Astronaut2.mp4",
+            "hash": "9b71c8f8a835ec60e8e89439c914022",
+            "size": 1710439
+        },
+        {
+            "name": "Tech_CosmologicalPirates",
+            "path": "AB_BlokBuild_Android/Tech_CosmologicalPirates.mp4",
+            "hash": "b0278360feccf4fe76d8eaf45bc87e16",
+            "size": 1368051
+        },
+        {
+            "name": "Tech_MobileExperimentCabin",
+            "path": "AB_BlokBuild_Android/Tech_MobileExperimentCabin.mp4",
+            "hash": "324e29552637a316fa1feb5960b6341",
+            "size": 2072863
+        },
+        {
+            "name": "Tech_Phantom",
+            "path": "AB_BlokBuild_Android/Tech_Phantom.mp4",
+            "hash": "c3e66c3f7689e9eac0968cd1954a6ef7",
+            "size": 1822757
+        },
+        {
+            "name": "Tech_PhotonCruiser",
+            "path": "AB_BlokBuild_Android/Tech_PhotonCruiser.mp4",
+            "hash": "c3a942f75e59323abedd283961b5d35",
+            "size": 1982792
+        },
+        {
+            "name": "Tech_PlanetRover",
+            "path": "AB_BlokBuild_Android/Tech_PlanetRover.mp4",
+            "hash": "c42d2c2d95cfd17cdf982158815c221",
+            "size": 1754395
+        },
+        {
+            "name": "Tech_ReWarCar",
+            "path": "AB_BlokBuild_Android/Tech_ReWarCar.mp4",
+            "hash": "65518179fcfae97563f4d4f4db81a7",
+            "size": 1786852
+        },
+        {
+            "name": "Tech_Warrior",
+            "path": "AB_BlokBuild_Android/Tech_Warrior.mp4",
+            "hash": "6299adc864b43f4766a736b2d2dcd9",
+            "size": 1863557
+        },
+        {
+            "name": "assetconfig",
+            "path": "AB_BlokBuild_Android/assetconfig.json",
+            "hash": "a32ef37388984d82f5f7f4baaf466fd",
+            "size": 14004
+        },
+        {
+            "name": "blokbuild_audio",
+            "path": "AB_BlokBuild_Android/blokbuild_audio",
+            "hash": "64aac6f91b1ca378c3e3e7428da15b6",
+            "size": 4833297
+        },
+        {
+            "name": "blokbuild_chatoulianjie",
+            "path": "AB_BlokBuild_Android/blokbuild_chatoulianjie",
+            "hash": "3a6f2aba3bdbdfb5917e55bf63d6cd6",
+            "size": 154406
+        },
+        {
+            "name": "blokbuild_gameconfigdata",
+            "path": "AB_BlokBuild_Android/blokbuild_gameconfigdata",
+            "hash": "31b84f5d26165dc4b89a8a27c8d9e072",
+            "size": 1296
+        },
+        {
+            "name": "blokbuild_gameprefab",
+            "path": "AB_BlokBuild_Android/blokbuild_gameprefab",
+            "hash": "157b411a645aa7b77541a3daa18be72",
+            "size": 18142
+        },
+        {
+            "name": "blokbuild_img_morebuildintro",
+            "path": "AB_BlokBuild_Android/blokbuild_img_morebuildintro",
+            "hash": "594a771f7f3ad6b7e2d1db1853c6aff",
+            "size": 903823
+        },
+        {
+            "name": "blokbuild_img_playbg",
+            "path": "AB_BlokBuild_Android/blokbuild_img_playbg",
+            "hash": "d53494dda64f8e1843a4e539095d37e",
+            "size": 117466
+        },
+        {
+            "name": "blokbuild_img_stepintro",
+            "path": "AB_BlokBuild_Android/blokbuild_img_stepintro",
+            "hash": "44664befa9ec40b1965585d72d8494",
+            "size": 350693
+        },
+        {
+            "name": "blokbuild_img_uihelpcontent",
+            "path": "AB_BlokBuild_Android/blokbuild_img_uihelpcontent",
+            "hash": "1d2ce3df3b5248c44dfee0bbb6fcb6",
+            "size": 15352
+        },
+        {
+            "name": "blokbuild_lvdai",
+            "path": "AB_BlokBuild_Android/blokbuild_lvdai",
+            "hash": "8d5764cf4c8f8824acd4b062fb8f633c",
+            "size": 294698
+        },
+        {
+            "name": "blokbuild_lvdai2",
+            "path": "AB_BlokBuild_Android/blokbuild_lvdai2",
+            "hash": "ecdfdda449e23fb61ae32a9e930fb4c",
+            "size": 89465
+        },
+        {
+            "name": "blokbuild_purplewanou",
+            "path": "AB_BlokBuild_Android/blokbuild_purplewanou",
+            "hash": "9e5dd7ff1fa985d472e4319d35ad9279",
+            "size": 127127
+        },
+        {
+            "name": "blokbuild_redwanou",
+            "path": "AB_BlokBuild_Android/blokbuild_redwanou",
+            "hash": "e672f63c4fc0b6687dda1dfcfb3f622f",
+            "size": 83175
+        },
+        {
+            "name": "blokbuild_room_audio",
+            "path": "AB_BlokBuild_Android/blokbuild_room_audio",
+            "hash": "8eaa87a4887405f107eabb82adee618",
+            "size": 255708
+        },
+        {
+            "name": "blokbuild_shouzhidonghua",
+            "path": "AB_BlokBuild_Android/blokbuild_shouzhidonghua",
+            "hash": "265fb413203857eb8d72b61b9529f4",
+            "size": 74677
+        },
+        {
+            "name": "blokbuild_spineprefabs",
+            "path": "AB_BlokBuild_Android/blokbuild_spineprefabs",
+            "hash": "393a403ce628d5ecf2add6546fa5c5f",
+            "size": 666246
+        },
+        {
+            "name": "blokbuild_uiprefab",
+            "path": "AB_BlokBuild_Android/blokbuild_uiprefab",
+            "hash": "89e1ca876d347b3b894188c6794dcd",
+            "size": 4897931
+        },
+        {
+            "name": "blokbuild_whitewanou",
+            "path": "AB_BlokBuild_Android/blokbuild_whitewanou",
+            "hash": "98daa74b92ac4d948f739ffa2bc9c3b",
+            "size": 77419
+        },
+        {
+            "name": "blokbuild_zhukong",
+            "path": "AB_BlokBuild_Android/blokbuild_zhukong",
+            "hash": "2a5a70a545a6fb21cefbb55cc7b5332b",
+            "size": 38653
+        },
+        {
+            "name": "blokbuild_zhukong2",
+            "path": "AB_BlokBuild_Android/blokbuild_zhukong2",
+            "hash": "476bc8f42bbb99b3b84cfcbd13b6fe9",
+            "size": 38645
+        },
+        {
+            "name": "guide_1",
+            "path": "AB_BlokBuild_Android/guide_1.mp4",
+            "hash": "b6aefd7bc1f23ecfa2555b18c62cd6",
+            "size": 1653139
+        },
+        {
+            "name": "guide_2",
+            "path": "AB_BlokBuild_Android/guide_2.mp4",
+            "hash": "a1b29865f66c8604774c8dd63c86349",
+            "size": 12231488
+        },
+        {
+            "name": "guide_3",
+            "path": "AB_BlokBuild_Android/guide_3.mp4",
+            "hash": "b4924ca2a7741716924381d985d73f27",
+            "size": 1843030
+        },
+        {
+            "name": "ptplugin",
+            "path": "AB_BlokBuild_Android/ptplugin.txt",
+            "hash": "6a43bcdaaa05a521f6bd75c2e537dfd",
+            "size": 5644
+        },
+        {
+            "name": "resconfig",
+            "path": "AB_BlokBuild_Android/resconfig.json",
+            "hash": "852efd60994265ad7d5c9c98198eaa1",
+            "size": 6340
+        },
+        {
+            "name": "AB_Common_Android",
+            "path": "AB_Common_Android/AB_Common_Android",
+            "hash": "f5bb67e22c69d549a2a6b4b52f729c5f",
+            "size": 1577
+        },
+        {
+            "name": "assetconfig",
+            "path": "AB_Common_Android/assetconfig.json",
+            "hash": "3898e657c062ca604cec7411d72320f4",
+            "size": 1962
+        },
+        {
+            "name": "gamecommon_audio",
+            "path": "AB_Common_Android/gamecommon_audio",
+            "hash": "4b6948891e163fb3d2329f98a7936a6",
+            "size": 33988
+        },
+        {
+            "name": "gamecommon_font",
+            "path": "AB_Common_Android/gamecommon_font",
+            "hash": "c86e58da1213a39888d26e1da3f9066",
+            "size": 5555667
+        },
+        {
+            "name": "gamecommon_prefab",
+            "path": "AB_Common_Android/gamecommon_prefab",
+            "hash": "e3abd9ec64841fc9c447bc83959c56cb",
+            "size": 3203851
+        },
+        {
+            "name": "ptplugin",
+            "path": "AB_Common_Android/ptplugin.txt",
+            "hash": "a6343c87492af8af4834719d866f588",
+            "size": 5070
+        },
+        {
+            "name": "resconfig",
+            "path": "AB_Common_Android/resconfig.json",
+            "hash": "b1d3547b56a3b4a7679c688ff7b5e44",
+            "size": 970
+        },
+        {
+            "name": "AB_PaiBloks_Android",
+            "path": "AB_PaiBloks_Android/AB_PaiBloks_Android",
+            "hash": "1c9c936e2dff1d914929d36e195de3d",
+            "size": 1588
+        },
+        {
+            "name": "advertise",
+            "path": "AB_PaiBloks_Android/advertise.bin",
+            "hash": "bca74bb5a47b79641374a5c57039a8",
+            "size": 94357
+        },
+        {
+            "name": "assetconfig",
+            "path": "AB_PaiBloks_Android/assetconfig.json",
+            "hash": "ed61637aa4355c463971ec7b7c558dc",
+            "size": 1118
+        },
+        {
+            "name": "paibloks_gameprefab",
+            "path": "AB_PaiBloks_Android/paibloks_gameprefab",
+            "hash": "84d4fedf32f6967a8ea0b7d8d64de63c",
+            "size": 27901
+        },
+        {
+            "name": "paibloks_sounds",
+            "path": "AB_PaiBloks_Android/paibloks_sounds",
+            "hash": "782a56e461834818a4839e25745c5f48",
+            "size": 24117
+        },
+        {
+            "name": "paibloks_uiprefab",
+            "path": "AB_PaiBloks_Android/paibloks_uiprefab",
+            "hash": "172125797f9d8f1149d641bbbda7ce5f",
+            "size": 79191
+        },
+        {
+            "name": "resconfig",
+            "path": "AB_PaiBloks_Android/resconfig.json",
+            "hash": "64c8b06518e99d210a9142b84f1072",
+            "size": 1149
+        }
+    ]
+}

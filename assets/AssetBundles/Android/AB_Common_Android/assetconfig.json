@@ -1,0 +1,36 @@
+{
+    "abInfos": [
+        {
+            "name": "gamecommon_audio",
+            "assets": [
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Audio/click_sound.mp3",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Audio/edu_exitlesson.mp3"
+            ]
+        },
+        {
+            "name": "gamecommon_font",
+            "assets": [
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Font/FZY3JW.TTF",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Font/fzzyct.TTF",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Font/fzzyjt.TTF",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Font/loading_num.fontsettings",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Font/loading_num.mat",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Font/loading_num.png"
+            ]
+        },
+        {
+            "name": "gamecommon_prefab",
+            "assets": [
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Prefab/UIBlockBotsLoadingPanel.prefab",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Prefab/UIBlokBuildLoadingPanel.prefab",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Prefab/UIBlokModelLoadingPanel.prefab",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Prefab/UICodingVideoPanel.prefab",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Prefab/UIExitTipPanel.prefab",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Prefab/UIMaskLoadingPanel.prefab",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Prefab/UIShelterPanel.prefab",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Prefab/UIVideoDataLoadingPanel.prefab",
+                "Assets/Game_Common/ArtRes/AssetBundles/GameCommon_Prefab/UIVideoPanel.prefab"
+            ]
+        }
+    ]
+}

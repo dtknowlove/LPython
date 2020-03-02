@@ -1,0 +1,35 @@
+{
+    "resversion": "101",
+    "items": [
+        {
+            "name": "AB_Common_Android",
+            "path": "AB_Common_Android",
+            "hash": "f5bb67e22c69d549a2a6b4b52f729c5f",
+            "size": 1577.0
+        },
+        {
+            "name": "assetconfig",
+            "path": "assetconfig.json",
+            "hash": "3898e657c062ca604cec7411d72320f4",
+            "size": 1962.0
+        },
+        {
+            "name": "gamecommon_audio",
+            "path": "gamecommon_audio",
+            "hash": "4b6948891e163fb3d2329f98a7936a6",
+            "size": 33988.0
+        },
+        {
+            "name": "gamecommon_font",
+            "path": "gamecommon_font",
+            "hash": "c86e58da1213a39888d26e1da3f9066",
+            "size": 5555667.0
+        },
+        {
+            "name": "gamecommon_prefab",
+            "path": "gamecommon_prefab",
+            "hash": "e3abd9ec64841fc9c447bc83959c56cb",
+            "size": 3203851.0
+        }
+    ]
+}
