@@ -1,0 +1,176 @@
+[Package Manager] Server::Start -- Port 55135 was selected
+
+LICENSE SYSTEM [2020724 11:45:5] No start/stop license dates set
+
+LICENSE SYSTEM [2020724 11:45:5] Next license update check is after 2027-08-23T00:17:35
+
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity2017.4.32.f1/Unity.app/Contents/MacOS/Unity
+-projectPath
+/Users/admin/Desktop/Unity5.5Projects/PTClassroom/classroom
+-executeMethod
+UnityModule.TestFun
+-logFile
+/Users/admin/Desktop/PersonalProject/LPython/Timer/openunity.txt
+-openpara
+打开了怎么说？收到没？？
+Successfully changed project path to: /Users/admin/Desktop/Unity5.5Projects/PTClassroom/classroom
+/Users/admin/Desktop/Unity5.5Projects/PTClassroom/classroom
+Loading GUID <-> Path mappings...0.000058 seconds
+Loading Asset Database...0.062113 seconds
+Audio: FMOD Profiler initialized on port 54900
+AssetDatabase consistency checks...0.640417 seconds
+Refreshing native plugins compatible for Editor in 74.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Resolving 4 packages:
+[Package Manager]  * Package :  com.unity.ads@2.0.8
+    (location: /Users/admin/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8)
+[Package Manager]  * Package :  com.unity.analytics@2.0.13
+    (location: /Users/admin/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13)
+[Package Manager]  * Package :  com.unity.purchasing@0.0.19
+    (location: /Users/admin/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19)
+[Package Manager]  * Package :  com.unity.standardevents@1.0.10
+    (location: /Users/admin/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10)
+[Package Manager] Resolve completed
+IsTimeToCheckForNewEditor: Update time 1595565045 current 1595562308
+Editor: Metal support disabled, skipping device initialization
+
+ 
+(Filename: /Users/builduser/buildslave/unity/build/PlatformDependent/OSX/MetalSurfaceHelper.mm Line: 754)
+
+Initialize engine version: 2017.4.32f1 (4da3ed968770)
+GfxDevice: creating device client; threaded=1
+Renderer: Intel(R) Iris(TM) Graphics 540
+Vendor:   Intel Inc.
+Version:  4.1 INTEL-14.2.16
+GLES:     0
+ GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable GL_APPLE_fl
+ush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle 294482432
+Initialize mono
+Mono path[0] = '/Applications/Unity2017.4.32.f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity2017.4.32.f1/Unity.app/Contents/Mono/lib/mono/2.0'
+Mono config path = '/Applications/Unity2017.4.32.f1/Unity.app/Contents/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=127.0.0.1:56962
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2017.4.32 for Unity v2017.4.32f1
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity2017.4.32.f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity2017.4.32.f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity2017.4.32.f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004598 seconds.
+Registering platform support modules:
+Registered platform support modules in: 0.186399s.
+Native extension for OSXStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 1.95 ms, found 4 plugins.
+[XcodeApplications] RefreshListOfAvailableXcodeApplications in: 0.214578s.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.97 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 6.70 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.566 seconds
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Registering precompiled user dll's ...
+Registered in 1.199614 seconds.
+Initializing Unity.PackageManager (PackageManager) v2017.4.32 for Unity v2017.4.32f1
+Registering platform support modules:
+Registered platform support modules in: 0.28123s.
+Native extension for OSXStandalone target not found
+Native extension for iOS target not found
+[XcodeApplications] RefreshListOfAvailableXcodeApplications in: 0.008194s.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.592 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.255794 seconds.
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.342487 seconds (Nothing changed)
+Warming cache for 8064 main assets: 0.025241 seconds elapsed
+Initializing Unity extensions:
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll'  GUID: c768acbc9cf24d398488bb4c93b91288
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'  GUID: b8a0574e92bd43a59e19d6c3c6ae54c7
+ '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Load scene 'Assets/Game_PaiBloks/Scenes/Game.unity' time: 0.030358 ms 
+Unloading 2724 Unused Serialized files (Serialized files now loaded: 0)
+WARNING: 321805984 format is not supported, decompressing texture
+System memory in use before: 301.8 MB.
+System memory in use after: 302.0 MB.
+
+Unloading 738 unused Assets to reduce memory usage. Loaded Objects now: 3376.
+Total: 2.992503 ms (FindLiveObjects: 1.199473 ms CreateObjectMapping: 0.268602 ms MarkObjects: 1.418886 ms  DeleteObjects: 0.104407 ms)
+
+Call UnityModule.TestFun by 打开了怎么说？收到没？？
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityModule:TestFun() (at Assets/PaibloksTool/Editor/UnityModule.cs:26)
+ 
+(Filename: Assets/PaibloksTool/Editor/UnityModule.cs Line: 26)
+
+Subscribe to USB device events
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Created GICache directory at /Users/admin/Library/Caches/com.unity3d.UnityEditor/GiCache. Took: 0.014s, timestamps: [14.215 - 14.229]
+Issue TrimJob to reduce GI Cache size to maximum 10GB at: '/Users/admin/Library/Caches/com.unity3d.UnityEditor/GiCache'
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 7000061a9000 -> priority: 1 
+Request timed out while processing request "https://public-cdn.cloud.unity3d.com/config/production", HTTP error code 0
+.[UnityConnect] Request timed out.
+TrimDiskCacheJob: Current cache size 0mb
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.543695 seconds (Nothing changed)
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 351.9 MB.
+System memory in use after: 352.4 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 5606.
+Total: 9.893290 ms (FindLiveObjects: 1.169775 ms CreateObjectMapping: 0.316051 ms MarkObjects: 8.243504 ms  DeleteObjects: 0.162828 ms)
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.500102 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.497641 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.347112 seconds (Nothing changed)
+Server Came alive after 1582.518 ms
+Connect to CacheServer localhost:60714
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 113.781858 ms] 
+Disconnect from CacheServer
+Refreshing native plugins compatible for Editor in 72.38 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.96 ms.
+
+----- Total AssetImport time: 2.145617s, AssetImport time: 0.192720s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Cache Server detail: CacheServerIntegrate time: 0.000000s, CacheServer download: 0.062667s [0 B, 0.000000 mb/s]
+----- Cache Server detail: Total assets requested: 1, Cached Assets: 0, Not available: 0, Not supported: 1.
+----- Cache Server detail: CacheMove: 0.000000s, CacheDelete: 0.000000s.
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.358345 seconds (Nothing changed)
+[Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+##utp:{"type":"MemoryLeaks","allocatedMemory":18991707,"memoryLabels":[{"Default":3812},{"Thread":16},{"Manager":328},{"Texture":672},{"TextureCache":-672},{"FMOD":664},{"Physics":1},{"Serialization":29792},{"Terrain":224},{"String":34819},{"DynamicArray":32507},{"HashMap":18843520},{"Curl":1736},{"PoolAlloc":-224},{"Sprites":8},{"CloudService":-2560},{"VR":1144},{"EditorGui":280},{"EditorUtility":36040},{"AssetImporter":24},{"RestService":64},{"UnityConnect":9376},{"Collab":744},{"Upm":-608}]}
