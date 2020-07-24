@@ -519,24 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "BasicTest/ActualCombat.py",
-			"settings":
-			{
-				"buffer_size": 459,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "BasicTest/package_filehelper/NetworkHelper.py",
-			"settings":
-			{
-				"buffer_size": 500,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -570,22 +552,31 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/admin/Desktop/PersonalProject/LPython",
-		"/Users/admin/Desktop/PersonalProject/LPython/BasicTest",
-		"/Users/admin/Desktop/PersonalProject/LPython/Cache",
-		"/Users/admin/Desktop/PersonalProject/LPython/Cache/picture",
-		"/Users/admin/Desktop/PersonalProject/LPython/Doc"
+		"/Users/admin/Desktop/PersonalProject/LPython"
 	],
 	"file_history":
 	[
+		"/Users/admin/Desktop/PersonalProject/LPython/HelloWorld/TServer.py",
+		"/Users/admin/Desktop/PersonalProject/LPython/HelloWorld/HelloWorld.py",
+		"/Users/admin/Desktop/PersonalProject/LPython/HelloWorld/TClient.py",
+		"/Users/admin/Desktop/PersonalProject/LPython/HelloWorld/TClienUDP.py",
+		"/Users/admin/Desktop/PersonalProject/LPython/HelloWorld/TDict.py",
+		"/Users/admin/Desktop/PersonalProject/LPython/HelloWorld/TOOP2.py",
+		"/Users/admin/Desktop/PersonalProject/LPython/Python-01/attchgui.py",
+		"/Users/admin/Desktop/PersonalProject/LPython/HelloWorld/TData/WebServer.py",
+		"/Users/admin/Desktop/PersonalProject/LPython/Doc/需求.md",
+		"/Users/admin/Desktop/PersonalProject/LPython/HelloWorld/TData/home.html",
+		"/Users/admin/Desktop/PersonalProject/LPython/HelloWorld/TData/WebApp.py",
+		"/Users/admin/Desktop/PersonalProject/LPython/HelloWorld/TData/WebHello.py",
+		"/Users/admin/Desktop/PersonalProject/LPython/BasicTest/ActualCombat.py",
+		"/Users/admin/Desktop/PersonalProject/LPython/BasicTest/package_filehelper/NetworkHelper.py",
+		"/Users/admin/Desktop/PersonalProject/LPython/BasicTest/Client.py",
 		"/Users/admin/Desktop/Unity5.5Projects/TestBlock/Assets/PTUGame/PTFramework/Core/Libs/protobuf-net/Serializers/UInt64Serializer.cs",
 		"/Users/admin/Desktop/PersonalProject/LPython/Cache/picture/p0/pictures_24.gif",
 		"/Users/admin/Desktop/Unity5.5Projects/TestBlock/Assets/PTGameData/Editor/config_ptgame/config_certificate.xml",
 		"/Users/admin/Desktop/Unity5.5Projects/TestBlock/Assets/PTUGame/PTLog/PTConsole.cs",
 		"/Users/admin/Desktop/PersonalProject/LPython/BasicTest/RequestsTest2.py",
 		"/Users/admin/Desktop/PersonalProject/LPython/BasicTest/package_filehelper/FileHelper.py",
-		"/Users/admin/Desktop/PersonalProject/LPython/BasicTest/package_filehelper/NetworkHelper.py",
-		"/Users/admin/Desktop/PersonalProject/LPython/BasicTest/ActualCombat.py",
 		"/Users/admin/Desktop/PersonalProject/LPython/BasicTest/Grammar.py",
 		"/Users/admin/Desktop/PersonalProject/LPython/BasicTest/package_filehelper/__init__.py",
 		"/Users/admin/Desktop/PersonalProject/LPython/BasicTest/FileHelper/FileHelper.py",
@@ -692,24 +683,11 @@
 		"/Users/admin/Desktop/JavaScripts/HelloWorld.html",
 		"/Users/admin/Desktop/PTFrameworkGithub/Scripts/Base/ERunner/ERunner.cs",
 		"/Users/admin/Desktop/PTFrameworkGithub/Scripts/Base/ConstDefine/DelegateDefine.cs",
-		"/Users/admin/Desktop/PTFrameworkGithub/_project.sublime-project",
-		"/Users/admin/Desktop/ShellHelper/DockStopBounce.command",
-		"/Users/admin/Desktop/ShellHelper/DockBounce.command",
-		"/Users/admin/Desktop/Unity5.5Projects/OneCube/Clients/OneCube/Assets/Lua/app/scenes/learn/study/StudyStepItem.lua",
-		"/Users/admin/Desktop/Unity5.5Projects/OneCube/Clients/OneCube/Assets/Lua/app/scenes/learn/study/StudyOK.lua",
-		"/Users/admin/Desktop/Unity5.5Projects/OneCube/Clients/OneCube/Assets/Lua/app/scenes/learn/study/StudyMap2.lua",
-		"/Users/admin/Desktop/Unity5.5Projects/OneCube/Clients/OneCube/Assets/Lua/app/scenes/learn/study/StudyMap3.lua",
-		"/Users/admin/Desktop/Unity5.5Projects/OneCube/Clients/OneCube/Assets/Lua/app/scenes/learn/study/StudyNoticeText.lua",
-		"/Users/admin/Desktop/Unity5.5Projects/OneCube/Clients/OneCube/Assets/Lua/app/uiwidget/ScanWidget.lua",
-		"/Users/admin/Desktop/Unity5.5Projects/OneCube/Clients/OneCube/Assets/Lua/app/scenes/home/StartPage.lua",
-		"/Users/admin/.bash_profile",
-		"/Users/admin/Desktop/Unity5.5Projects/OneCube/Clients/OneCube/Assets/Lua/app/data/play_text.lua",
-		"/Users/admin/Desktop/ShellHelper/ClearDock.command",
-		"/Users/admin/Desktop/ShellHelper/ClearXCode.command"
+		"/Users/admin/Desktop/PTFrameworkGithub/_project.sublime-project"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -884,76 +862,18 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "BasicTest/ActualCombat.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 459,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								459,
-								459
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "BasicTest/package_filehelper/NetworkHelper.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 500,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								459,
-								459
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -990,7 +910,7 @@
 	"project": "LPython.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1540,7 +1460,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 194.0,
+	"side_bar_width": 288.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
