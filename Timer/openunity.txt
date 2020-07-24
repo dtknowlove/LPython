@@ -1,14 +1,16 @@
-[Package Manager] Server::Start -- Port 55135 was selected
 
-LICENSE SYSTEM [2020724 11:45:5] No start/stop license dates set
+LICENSE SYSTEM [2020724 17:18:13] No start/stop license dates set
 
-LICENSE SYSTEM [2020724 11:45:5] Next license update check is after 2027-08-23T00:17:35
+LICENSE SYSTEM [2020724 17:18:13] Next license update check is after 2027-08-23T00:17:35
 
+DisplayProgressbar: Unity license
+[Package Manager] Server::Start -- Port 51765 was selected
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity2017.4.32.f1/Unity.app/Contents/MacOS/Unity
 -projectPath
 /Users/admin/Desktop/Unity5.5Projects/PTClassroom/classroom
+-batchmode
 -executeMethod
 UnityModule.TestFun
 -logFile
@@ -17,12 +19,13 @@ UnityModule.TestFun
 打开了怎么说？收到没？？
 Successfully changed project path to: /Users/admin/Desktop/Unity5.5Projects/PTClassroom/classroom
 /Users/admin/Desktop/Unity5.5Projects/PTClassroom/classroom
-Loading GUID <-> Path mappings...0.000058 seconds
-Loading Asset Database...0.062113 seconds
+Loading GUID <-> Path mappings...0.000089 seconds
+Loading Asset Database...0.059508 seconds
 Audio: FMOD Profiler initialized on port 54900
-AssetDatabase consistency checks...0.640417 seconds
-Refreshing native plugins compatible for Editor in 74.11 ms, found 1 plugins.
+AssetDatabase consistency checks...0.357045 seconds
+Refreshing native plugins compatible for Editor in 24.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Unity Package Manager
 [Package Manager] Resolving 4 packages:
 [Package Manager]  * Package :  com.unity.ads@2.0.8
     (location: /Users/admin/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8)
@@ -33,63 +36,59 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager]  * Package :  com.unity.standardevents@1.0.10
     (location: /Users/admin/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10)
 [Package Manager] Resolve completed
-IsTimeToCheckForNewEditor: Update time 1595565045 current 1595562308
-Editor: Metal support disabled, skipping device initialization
-
- 
-(Filename: /Users/builduser/buildslave/unity/build/PlatformDependent/OSX/MetalSurfaceHelper.mm Line: 754)
-
 Initialize engine version: 2017.4.32f1 (4da3ed968770)
-GfxDevice: creating device client; threaded=1
+GfxDevice: creating device client; threaded=0
 Renderer: Intel(R) Iris(TM) Graphics 540
 Vendor:   Intel Inc.
 Version:  4.1 INTEL-14.2.16
 GLES:     0
  GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable GL_APPLE_fl
 ush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
-OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle 294482432
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle 269069824
 Initialize mono
 Mono path[0] = '/Applications/Unity2017.4.32.f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity2017.4.32.f1/Unity.app/Contents/Mono/lib/mono/2.0'
 Mono config path = '/Applications/Unity2017.4.32.f1/Unity.app/Contents/Mono/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=127.0.0.1:56962
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=127.0.0.1:56632
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2017.4.32 for Unity v2017.4.32f1
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity2017.4.32.f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity2017.4.32.f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity2017.4.32.f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004598 seconds.
+Registered in 0.004801 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.186399s.
+Registered platform support modules in: 0.166844s.
 Native extension for OSXStandalone target not found
 Native extension for iOS target not found
-Refreshing native plugins compatible for Editor in 1.95 ms, found 4 plugins.
-[XcodeApplications] RefreshListOfAvailableXcodeApplications in: 0.214578s.
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+[XcodeApplications] RefreshListOfAvailableXcodeApplications in: 0.036279s.
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.97 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 6.70 ms.
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 4.89 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.566 seconds
+- Completed reload, in  1.167 seconds
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Registering precompiled user dll's ...
-Registered in 1.199614 seconds.
+Registered in 0.555172 seconds.
 Initializing Unity.PackageManager (PackageManager) v2017.4.32 for Unity v2017.4.32f1
 Registering platform support modules:
-Registered platform support modules in: 0.28123s.
+Registered platform support modules in: 0.27849s.
 Native extension for OSXStandalone target not found
 Native extension for iOS target not found
-[XcodeApplications] RefreshListOfAvailableXcodeApplications in: 0.008194s.
+[XcodeApplications] RefreshListOfAvailableXcodeApplications in: 0.007283s.
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.91 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.54 ms.
+Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.61 ms.
+WARNING: 306054752 format is not supported, decompressing texture
+WARNING: 306054752 format is not supported, decompressing texture
 Mono: successfully reloaded assembly
-- Completed reload, in  3.592 seconds
+- Completed reload, in  2.945 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.255794 seconds.
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.342487 seconds (Nothing changed)
-Warming cache for 8064 main assets: 0.025241 seconds elapsed
+Validating Project structure ... 0.245386 seconds.
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.386631 seconds (Nothing changed)
+Warming cache for 8064 main assets: 0.026244 seconds elapsed
 Initializing Unity extensions:
  '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
  '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
@@ -117,60 +116,616 @@ Initializing Unity extensions:
  '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
  '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'  GUID: b8a0574e92bd43a59e19d6c3c6ae54c7
  '/Applications/Unity2017.4.32.f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
-Load scene 'Assets/Game_PaiBloks/Scenes/Game.unity' time: 0.030358 ms 
 Unloading 2724 Unused Serialized files (Serialized files now loaded: 0)
-WARNING: 321805984 format is not supported, decompressing texture
-System memory in use before: 301.8 MB.
-System memory in use after: 302.0 MB.
+System memory in use before: 337.5 MB.
+System memory in use after: 337.7 MB.
 
-Unloading 738 unused Assets to reduce memory usage. Loaded Objects now: 3376.
-Total: 2.992503 ms (FindLiveObjects: 1.199473 ms CreateObjectMapping: 0.268602 ms MarkObjects: 1.418886 ms  DeleteObjects: 0.104407 ms)
+Unloading 738 unused Assets to reduce memory usage. Loaded Objects now: 3230.
+Total: 2.585181 ms (FindLiveObjects: 1.047041 ms CreateObjectMapping: 0.277581 ms MarkObjects: 1.142889 ms  DeleteObjects: 0.116517 ms)
 
 Call UnityModule.TestFun by 打开了怎么说？收到没？？
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-UnityModule:TestFun() (at Assets/PaibloksTool/Editor/UnityModule.cs:26)
+UnityModule:TestFun() (at Assets/PaibloksTool/Editor/UnityModule.cs:27)
  
-(Filename: Assets/PaibloksTool/Editor/UnityModule.cs Line: 26)
+(Filename: Assets/PaibloksTool/Editor/UnityModule.cs Line: 27)
+
+Opening scene 'Assets/Game_PaiBloks/Scenes/Game.unity'
+Load scene 'Assets/Game_PaiBloks/Scenes/Game.unity' time: 0.030683 ms 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+WARNING: 307433120 format is not supported, decompressing texture
+System memory in use before: 319.3 MB.
+System memory in use after: 319.6 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 5365.
+Total: 6.190103 ms (FindLiveObjects: 1.310305 ms CreateObjectMapping: 0.359879 ms MarkObjects: 4.495818 ms  DeleteObjects: 0.022809 ms)
 
 Subscribe to USB device events
-Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
-Created GICache directory at /Users/admin/Library/Caches/com.unity3d.UnityEditor/GiCache. Took: 0.014s, timestamps: [14.215 - 14.229]
-Issue TrimJob to reduce GI Cache size to maximum 10GB at: '/Users/admin/Library/Caches/com.unity3d.UnityEditor/GiCache'
+
+Packing sprites:
+[     59 MB ]- Collect Sprites to Pack : (SequentialAtlasing : 0) 
+[     59 MB ]Texture btn_yes has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture icon_back has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_suspend has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_lianjie has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_start has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_bangzhu has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture progress_2 has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_suspend has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture img_tankuang has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_start has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_xiayibu has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_minisize has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture img_zhezhao has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_guanbi has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture build_universe has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_shangyibu has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_jindu has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture update_darkbg has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_suspend has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_xiayibu has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_bangzhu has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_guanbi has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_wancheng has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_wancheng has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture img_jinducao has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture progress_3 has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_shangyibu has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture img_jindutiao has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_begin has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture img_tankuang has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_refresh has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture btn_no has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture icon_back has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+Texture img_wifi has custom settings not set to Override. Using default settings.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Src/SpritePacker/SpritePacker.cpp Line: 795)
+
+- Grouping sprites using the selected SpritePackerPolicy.
+[    105 MB ]- 	Atlas "DebugLogUI" with 12 sprites assigned.
+[    107 MB ]- 	Atlas "ETCSprites (Group 0)" with 13 sprites assigned.
+[    107 MB ]- 	Atlas "ETCSprites (Group 1)" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "ETCSprites (Group 2)" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "EasyTouchExample" with 6 sprites assigned.
+[    107 MB ]- 	Atlas "Img_Build" with 3 sprites assigned.
+[    107 MB ]- 	Atlas "Img_SkuMoreSeries" with 14 sprites assigned.
+[    107 MB ]- 	Atlas "Img_SkuProPerty (Group 0)" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "Img_SkuProPerty (Group 1)" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "Img_SkuSeries (Group 0)" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "Img_SkuSeries (Group 1)" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "PlayBg (Group 0)" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "PlayBg (Group 1)" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "img_carlistbg" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "loadinganim_build" with 60 sprites assigned.
+[    107 MB ]- 	Atlas "loadinganim_noova" with 60 sprites assigned.
+[    107 MB ]- 	Atlas "typeiconimages (Group 0)" with 9 sprites assigned.
+[    107 MB ]- 	Atlas "typeiconimages (Group 1)" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_blockbots_nativeapp" with 8 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_blockbotsuiprivacypanel" with 6 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_blokbuild_guide" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_blokbuild_nativetraining" with 6 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_blokcell" with 5 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_dajian (Group 0)" with 34 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_dajian (Group 1)" with 5 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_gamecommon_nativeapp" with 7 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_img_stepintro (Group 0)" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_img_stepintro (Group 1)" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_movie" with 12 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_skumenu (Group 0)" with 8 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_skumenu (Group 1)" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_tongyong (Group 0)" with 11 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_tongyong (Group 1)" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_uihelpcontent (Group 0)" with 3 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_uihelpcontent (Group 1)" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_uimoreskupanel (Group 0)" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_uimoreskupanel (Group 1)" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_uiplaythememenu" with 4 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_xiazai (Group 0)" with 5 sprites assigned.
+[    107 MB ]- 	Atlas "ui_atlas_xiazai (Group 1)" with 12 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_Level_IconItem" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_Level_IconItem_forest (Group 0)" with 11 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_Level_IconItem_forest (Group 1)" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_Level_IconItem_relic (Group 0)" with 12 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_Level_IconItem_relic (Group 1)" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_Level_IconItem_spaceship (Group 0)" with 11 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_Level_IconItem_spaceship (Group 1)" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_Level_IconItem_voicano (Group 0)" with 8 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_Level_IconItem_voicano (Group 1)" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_blebox" with 27 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code" with 22 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_bgs" with 43 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_categories" with 20 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_connect" with 9 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_arm" with 4 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_assembly_audia" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_assembly_didi" with 7 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_assembly_noova" with 14 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_assembly_rex" with 17 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_assembly_ryango" with 8 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_assembly_selix" with 3 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_assembly_turbo" with 4 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_assembly_tyton" with 4 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_delay" with 6 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_language" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_light" with 5 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_logic" with 5 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_movement" with 14 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_record" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_animal" with 6 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_audia" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_block" with 5 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_denny" with 5 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_didi" with 12 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_emotion" with 9 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_instrument" with 11 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_martin" with 4 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_music" with 3 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_noova" with 7 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_number" with 11 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_old" with 4 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_rex" with 9 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_ryango" with 9 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_selix" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_turbo" with 6 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_sound_tyton" with 3 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_trigger" with 7 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_icon_images_variable" with 3 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_parameter_images" with 38 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_settings" with 96 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_uis" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_code_videoeffect" with 6 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_codelib" with 12 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_common" with 19 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_didigame" with 20 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_didigame_record" with 18 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_edu_homepanel (Group 0)" with 10 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_edu_homepanel (Group 1)" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_edu_homepanel_figure" with 8 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_figureicon" with 12 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_guideicon" with 9 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_homesprite" with 21 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_image_common_cn" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_image_common_en" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_image_common_ko" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_image_guide_cn" with 25 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_image_guide_en" with 25 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_image_guide_ko" with 25 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_loadingicon" with 8 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_otabox" with 4 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_ryangogame" with 17 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_ryangoicon" with 66 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_ryangonodemask" with 3 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_task_intro" with 4 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_blockbots_uicodesimulatorpanel" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_bloctbots_custom" with 4 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_edu_video (Group 0)" with 16 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_edu_video (Group 1)" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_guideicon" with 1 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_uicodesimulatorpanel" with 6 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_uicodingsettingpanel" with 4 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_uifigurelevelpanel" with 6 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_uifigureremotectrl" with 15 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_uifloatpanel" with 2 sprites assigned.
+[    107 MB ]- 	Atlas "uiatlas_uinetworkimage" with 5 sprites assigned.
+[    107 MB ]- 	Atlas "unlocksku" with 3 sprites assigned.
+[    107 MB ][    107 MB ]- Completed grouping sprites to Atlas.
+[    105 MB ]- Build Sprite Atlas. 
+[    109 MB ]- Packing 127 atlases.
+[    109 MB ]- Atlas (DebugLogUI) file (01b8f43c8017f3533ad7abf292fc3ca6) found. Mapping.
+[    109 MB ]- Atlas (ETCSprites (Group 0)) file (d3e4c02cf8bb8a56883ff06b4d473f6b) found. Mapping.
+[    109 MB ]WARNING: 307620032 format is not supported, decompressing texture
+- Atlas (ETCSprites (Group 1)) file (5a23006b970516e5757da5834e64a324) found. Mapping.
+[    109 MB ]- Atlas (ETCSprites (Group 2)) file (96730828bdb60ef90bdd1c5725181b3b) found. Mapping.
+[    109 MB ]WARNING: 307620032 format is not supported, decompressing texture
+- Atlas (EasyTouchExample) file (66a9616a4132c521c55b7b54c0c350ec) found. Mapping.
+[    109 MB ]- Atlas (Img_Build) file (a5c68a4e85044271b75f69b75b9b249d) found. Mapping.
+[    109 MB ]- Atlas (Img_SkuMoreSeries) file (bdf2f682c870a586983dc7a2f405efb9) found. Mapping.
+[    109 MB ]WARNING: 307988864 format is not supported, decompressing texture
+- Atlas (Img_SkuProPerty (Group 0)) file (98253ce6f0e41256974697d2c2d5d4e8) found. Mapping.
+[    109 MB ]- Atlas (Img_SkuProPerty (Group 1)) file (a079cdb94cb7e441c504a2b857ec0517) found. Mapping.
+[    109 MB ]WARNING: 307667424 format is not supported, decompressing texture
+- Atlas (Img_SkuSeries (Group 0)) file (128991d4144eab66b0c6318ed24b0d04) found. Mapping.
+[    109 MB ]- Atlas (Img_SkuSeries (Group 1)) file (a7f9515f7439c2d383de1876f7464bc4) found. Mapping.
+[    109 MB ]- Atlas (PlayBg (Group 0)) file (3df17f1a6fb0c1f85ce8733dfcc27e58) found. Mapping.
+[    109 MB ]WARNING: 307692640 format is not supported, decompressing texture
+- Atlas (PlayBg (Group 1)) file (bfcd9047e0dabddb5f02dfa23d458461) found. Mapping.
+[    109 MB ]WARNING: 308237824 format is not supported, decompressing texture
+- Atlas (img_carlistbg) file (647a7230113c252c4e17dc0d4faccd57) found. Mapping.
+[    109 MB ]- Atlas (loadinganim_build) file (38481e64637d18041cff5ff31554de63) found. Mapping.
+[    109 MB ]- Atlas (loadinganim_noova) file (b65b09fd06f2801c27cdfc7920a5f65a) found. Mapping.
+[    109 MB ]- Atlas (typeiconimages (Group 0)) file (976245162537b5a89a4ab19902bc4d4a) found. Mapping.
+[    109 MB ]WARNING: 307987744 format is not supported, decompressing texture
+- Atlas (typeiconimages (Group 1)) file (be94646cfe56871e7e9f67ffeb581745) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_blockbots_nativeapp) file (c02867d394c05451fde84ece30c25f0a) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_blockbotsuiprivacypanel) file (9ec9cbc0bd4b6229f46d43f6fc0a7d42) found. Mapping.
+[    109 MB ]WARNING: 308379136 format is not supported, decompressing texture
+- Atlas (ui_atlas_blokbuild_guide) file (633905c7b703cda7aca89f59a7224b7a) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_blokbuild_nativetraining) file (16c1cc9564c4cb2612762aa942813c36) found. Mapping.
+[    109 MB ]WARNING: 307685728 format is not supported, decompressing texture
+- Atlas (ui_atlas_blokcell) file (af7bc6d18234dea8effcc3aece7ea1de) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_dajian (Group 0)) file (1009b29db69dfa22dcf6c3a2b8d2aa61) found. Mapping.
+[    109 MB ]WARNING: 307679248 format is not supported, decompressing texture
+- Atlas (ui_atlas_dajian (Group 1)) file (7fd95b113f60c92d791da8cd347204f7) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_gamecommon_nativeapp) file (2d4f477aa57a7de87a0b22dd43ba41d9) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_img_stepintro (Group 0)) file (abadc107f018ab4c002f1601127be63e) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_img_stepintro (Group 1)) file (7afb295dff5fe72ad6db88062ac0a4c8) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_movie) file (b4e99f31f4c95fe1e673e56c138fffc8) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_skumenu (Group 0)) file (71c7e47f728bc9d507e2fe662cd41ec8) found. Mapping.
+[    109 MB ]WARNING: 308081584 format is not supported, decompressing texture
+- Atlas (ui_atlas_skumenu (Group 1)) file (a33a2746c1db185e906f0e1f58363c6b) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_tongyong (Group 0)) file (66e25590b9a1dff81b4297b400f35614) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_tongyong (Group 1)) file (099363aecd9ee0ecf681abc40014b6af) found. Mapping.
+[    109 MB ]WARNING: 308081664 format is not supported, decompressing texture
+- Atlas (ui_atlas_uihelpcontent (Group 0)) file (cbf92b66710f0014c9fe391e5cc3a13d) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_uihelpcontent (Group 1)) file (c7c54a032665ee23468372c9444d5918) found. Mapping.
+[    109 MB ]WARNING: 308073904 format is not supported, decompressing texture
+- Atlas (ui_atlas_uimoreskupanel (Group 0)) file (fcd00b40cb3448a5b2791ac9b2358463) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_uimoreskupanel (Group 1)) file (4d18f9b29022ee234f3e20ff9aba4fd1) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_uiplaythememenu) file (cd7db4db40502ad5394e2793a09082da) found. Mapping.
+[    109 MB ]WARNING: 307662944 format is not supported, decompressing texture
+- Atlas (ui_atlas_xiazai (Group 0)) file (40806fd1a6ef1eac5e280fe73c09cab5) found. Mapping.
+[    109 MB ]- Atlas (ui_atlas_xiazai (Group 1)) file (a6c44aa41ef44f0f98f515f1b27c1582) found. Mapping.
+[    109 MB ]- Atlas (uiatlas_blockbots_Level_IconItem) file (2a44bdc62b70a25782bfddc87d543340) found. Mapping.
+[    109 MB ]- Atlas (uiatlas_blockbots_Level_IconItem_forest (Group 0)) file (d1761089fbb2bce6c757b157d0d79bb4) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_Level_IconItem_forest (Group 1)) file (ffcf1e17a7f58b8c98870a5b5259c733) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_Level_IconItem_relic (Group 0)) file (ad590d73641036fa3d2dbc8355653261) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_Level_IconItem_relic (Group 1)) file (e571adde5184e330298964bbd42b0a38) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_Level_IconItem_spaceship (Group 0)) file (900a88e2eb938b58c712587067acfddb) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_Level_IconItem_spaceship (Group 1)) file (c8b44c7f03b43236959e6027292818ae) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_Level_IconItem_voicano (Group 0)) file (b1d99a3eb467f9ad7cba43acce2710c0) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_Level_IconItem_voicano (Group 1)) file (742ae3120604542fd4fafc09ce27761b) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_blebox) file (46c9d4413bae018ee5f33730f02ec874) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code) file (d0db00222fc15b7dde4a7dbfb911ede0) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_bgs) file (77ded7e260b4e5b566fcf042b195c568) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_categories) file (c6ffd08f31f10f2887d1a80e4f1ae834) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_connect) file (20dad2f9e44b92ad100d6f695225476c) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_arm) file (e7bde0ece39b5966e9aa7d49d8cd544f) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_assembly_audia) file (89e6517a652ee9542cc1404df483ced0) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_assembly_didi) file (345711793e6c47c57afde03ada6b2ced) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_assembly_noova) file (e6bab32747b2d774e0dfe7e2bc9c0f1e) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_assembly_rex) file (321d93d4c1f338661473d6ce0e84bbd8) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_assembly_ryango) file (db49e68e63201a6ca6b9712191c6a11a) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_assembly_selix) file (a5ca8911f7e40b9417b63c161144824d) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_assembly_turbo) file (cfa674eb2b185ed74a79332657ea8a5b) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_assembly_tyton) file (86d6ec9686833a6cefbbf517f1d89457) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_delay) file (b7e91b2cfe38c6f1d5718bae5dcec790) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_language) file (04797fd27831a9128a355c0c52ca3ee2) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_light) file (b27fbbf0f728b8e74d61403af0d9e81b) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_logic) file (14fde8686fd12227b9b81826d6ed6536) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_movement) file (4cca6d4fab9afd5a1ecf1a4ec0a9cbdc) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_record) file (87d9e3db1c5678a15e76ea1c5761d3a7) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound) file (5d110da7bf13a51d6ea42d7aa0434ed9) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_animal) file (4ac66cd15bfcfd97911526ddd3fc60f4) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_audia) file (c8e7214d58b87342f51153270a9ee009) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_block) file (0d280de4831fbb868c8c749f860d88ea) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_denny) file (7284f9226c91e5a01380d58cc60314c6) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_didi) file (d2e3e42ffadb6b49a59ff54f94a80b19) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_emotion) file (64f28148c60ce1b34b3d9ff82bfa2ac1) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_instrument) file (4af0d9ba1ca8f0624ec65817022425e1) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_martin) file (564578efb10ca043c8c8e2669befb726) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_music) file (c1a72085bad6395656a156cc33f24ace) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_noova) file (3291e19987444b1521014d966e8af68b) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_number) file (28401bdfad26d13b13b302617080796f) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_old) file (c7046cf8cec3cf86322ff6166b8ee87b) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_rex) file (670acaf6db8bcb9fcc14a3668189d5e6) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_ryango) file (72b02bb25417895d93c0510c00cd658d) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_selix) file (84ec026480997adaa94e3c31634ce13f) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_turbo) file (0dd928e89727b2e58a5d93bf3b2e92c9) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_sound_tyton) file (aa4d13984479d4d0d908625ff1115179) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_trigger) file (dbed026912d940404af77658640ee6d6) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_icon_images_variable) file (058ab637cbd3b433c74c019102d8f948) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_parameter_images) file (4e164269fe3f117690ece063a5517ff5) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_settings) file (4d33137281b0093c0f0134d2e9c2add3) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_uis) file (7cbbad9ba9788def29e048506948d15e) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_code_videoeffect) file (aa304771ad34237d3ded3e785e9a6fd1) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_codelib) file (e8ab148b7969a801bc57b6567800a863) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_common) file (69a6a4b9f98fddb33e73afc6f36f2226) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_didigame) file (d14d2f325389c7dc396bf2c287860312) found. Mapping.
+[    110 MB ]WARNING: 307986704 format is not supported, decompressing texture
+- Atlas (uiatlas_blockbots_didigame_record) file (71250d42508facd54e930461ea5bc7a7) found. Mapping.
+[    110 MB ]WARNING: 308371216 format is not supported, decompressing texture
+- Atlas (uiatlas_blockbots_edu_homepanel (Group 0)) file (7680ecd3402888f455edfbebe70f3570) found. Mapping.
+[    110 MB ]WARNING: 308667488 format is not supported, decompressing texture
+- Atlas (uiatlas_blockbots_edu_homepanel (Group 1)) file (6ceb3a05160aa02a6447b782d7652938) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_edu_homepanel_figure) file (5bc0ca33967e61bd791cfcf238a98209) found. Mapping.
+[    110 MB ]WARNING: 308372656 format is not supported, decompressing texture
+- Atlas (uiatlas_blockbots_figureicon) file (84499426bf6e6f275b671a134a67e28b) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_guideicon) file (7217cc48fe6bc9edcf70ab9aeba91418) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_homesprite) file (573b8b082a24cb4afe48b63113c130ba) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_image_common_cn) file (152344e17e5dfe8583b43f381aa9721c) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_image_common_en) file (9ba299c10370eeb5e8caa1acbb640da8) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_image_common_ko) file (ca874735da65a3aaa7a2f38eee544da5) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_image_guide_cn) file (da91866c87f1c27c7e72d376fa6cf0e5) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_image_guide_en) file (f374ebccccba0fb7f2eee3731bd56631) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_image_guide_ko) file (1d937b937a131522f5035dd94e787dab) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_loadingicon) file (6c02e2449e7b149563bcd74c44757793) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_otabox) file (bbb90f47833aba048b141546a9e1f21b) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_ryangogame) file (f2783097fb59804a013fa22a28228926) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_ryangoicon) file (6b4ae0c42c33acb38fd1bd056f27b4ee) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_ryangonodemask) file (99b2c7caa3585c42309ef102b5952ad7) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_task_intro) file (250c03dfb6f1d9405cb8fad5a5e6a13f) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_blockbots_uicodesimulatorpanel) file (d0c4e824c7f87a62e5b18e371274a009) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_bloctbots_custom) file (fb827ce8217c51fad68b2225b1530d21) found. Mapping.
+[    110 MB ]- Atlas (uiatlas_edu_video (Group 0)) file (26b7657f658b311fd28324b86558e03b) found. Mapping.
+[    111 MB ]WARNING: 308732944 format is not supported, decompressing texture
+- Atlas (uiatlas_edu_video (Group 1)) file (a94f006d09e8b4718d3dbf7ad82f1215) found. Mapping.
+[    111 MB ]- Atlas (uiatlas_guideicon) file (60dd65f8379fbad133b0643876f1915d) found. Mapping.
+[    111 MB ]- Atlas (uiatlas_uicodesimulatorpanel) file (5607c511745fbc939286cfaa3caee6b6) found. Mapping.
+[    111 MB ]- Atlas (uiatlas_uicodingsettingpanel) file (146f33bd2e54e9a60b9a62b6d152e57a) found. Mapping.
+[    111 MB ]- Atlas (uiatlas_uifigurelevelpanel) file (6fb6a4414fd62f19131c8b499c19140c) found. Mapping.
+[    111 MB ]- Atlas (uiatlas_uifigureremotectrl) file (9ad3877da37fe047cc3930d9f74f17d7) found. Mapping.
+[    111 MB ]- Atlas (uiatlas_uifloatpanel) file (de3e9ccd5015e8cffbc0b30ff1e3a525) found. Mapping.
+[    111 MB ]- Atlas (uiatlas_uinetworkimage) file (24c7e4e233828027db5c53146b9864b8) found. Mapping.
+[    111 MB ]- Atlas (unlocksku) file (b0423e904f277f12ab1f23aaed436546) found. Mapping.
+[    111 MB ]- Packing completed.
+[    109 MB ]- Update Sprites and Cleanup. 
+[    109 MB ]Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2017.4.32 for Unity v2017.4.32f1
+Registering platform support modules:
+Registered platform support modules in: 0.275036s.
+Native extension for OSXStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 53.87 ms, found 4 plugins.
+[XcodeApplications] RefreshListOfAvailableXcodeApplications in: 0.008893s.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.197 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.361474 ms 
+2020.07.24 17:18:37:445: deviceId:deviceid
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PTGame.Core.PTDebug:LogWarning(Object, Object[])
+PTGame.PTUGame:RuntimeInitializeOnLoadMethod() (at Assets/PTUGame/PTGame/Scripts/PTUGame.cs:24)
+ 
+(Filename: Assets/PTUGame/PTGame/Scripts/PTUGame.cs Line: 24)
+
+WARNING: 308442592 format is not supported, decompressing texture
+2020.07.24 17:18:37:697: 【UnityToNative】 >>>>cmd :PortalReady >>>> data: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PTGame.Core.PTDebug:LogWarning(Object, Object[])
+Putao.GameCommon.PTPortal:UnityToNative(PortalData) (at Assets/PTUGame/PTPortal/PTPortal.cs:331)
+Putao.GameCommon.PTPortal:Ready(Boolean) (at Assets/PTUGame/PTPortal/PTPortal.cs:432)
+Putao.PaiBloks.GameAdvertise:Start() (at Assets/Game_PaiBloks/Scripts/Game/GameAdvertise.cs:22)
+ 
+(Filename: Assets/PTUGame/PTPortal/PTPortal.cs Line: 331)
+
+2020.07.24 17:18:37:699: AudioManager.Init
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PTGame.Core.PTDebug:Log(Object, Object[])
+PTGame.Framework.AudioManager:Init() (at Assets/PTUGame/PTFramework/Framework/Audio/AudioManager.cs:175)
+Putao.PaiBloks.GameAdvertise:OnPTGameInitComplete() (at Assets/Game_PaiBloks/Scripts/Game/GameAdvertise.cs:39)
+PTGame.PTUGame:OnInitComplete(Action) (at Assets/PTUGame/PTGame/Scripts/PTUGame.cs:47)
+Putao.PaiBloks.GameAdvertise:Start() (at Assets/Game_PaiBloks/Scripts/Game/GameAdvertise.cs:26)
+ 
+(Filename: Assets/PTUGame/PTFramework/Framework/Audio/AudioManager.cs Line: 175)
+
+Created GICache directory at /Users/admin/Library/Caches/com.unity3d.UnityEditor/GiCache. Took: 0.004s, timestamps: [11.686 - 11.690]
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 7000061a9000 -> priority: 1 
+  Thread -> id: 700006a7f000 -> priority: 1 
+===Inhert ProjectMgrBase>>>BlockBotsMgr
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Putao.GameCommon.ProjectTransfer:InnerInit(String) (at Assets/Game_Common/Scripts_Common/Common/ProjectTransfer.cs:64)
+Putao.GameCommon.ProjectTransfer:Init(String) (at Assets/Game_Common/Scripts_Common/Common/ProjectTransfer.cs:52)
+Putao.PaiBloks.InitAppNode:<OnBegin>m__2() (at Assets/Game_PaiBloks/Scripts/Game/StartProcessModule/InitAppNode.cs:33)
+Putao.PaiBloks.InitAppNode:OnExecute(Single) (at Assets/Game_PaiBloks/Scripts/Game/StartProcessModule/InitAppNode.cs:49)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.SequenceNode:OnExecute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/SequenceNode.cs:75)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.ExecuteNodeChain:OnExecute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/Extensions/ExecuteNodeChain.cs:28)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.<Execute>c__Iterator0:MoveNext() (at Assets/PTUGame/PTCore/Scripts/Chaining/Extensions/IExecuteNodeExtension.cs:29)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+ 
+(Filename: Assets/Game_Common/Scripts_Common/Common/ProjectTransfer.cs Line: 64)
+
+===Inhert ProjectMgrBase>>>PTBlokBuildMgr
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Putao.GameCommon.ProjectTransfer:InnerInit(String) (at Assets/Game_Common/Scripts_Common/Common/ProjectTransfer.cs:64)
+Putao.GameCommon.ProjectTransfer:Init(String) (at Assets/Game_Common/Scripts_Common/Common/ProjectTransfer.cs:52)
+Putao.PaiBloks.InitAppNode:<OnBegin>m__2() (at Assets/Game_PaiBloks/Scripts/Game/StartProcessModule/InitAppNode.cs:33)
+Putao.PaiBloks.InitAppNode:OnExecute(Single) (at Assets/Game_PaiBloks/Scripts/Game/StartProcessModule/InitAppNode.cs:49)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.SequenceNode:OnExecute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/SequenceNode.cs:75)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.ExecuteNodeChain:OnExecute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/Extensions/ExecuteNodeChain.cs:28)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.<Execute>c__Iterator0:MoveNext() (at Assets/PTUGame/PTCore/Scripts/Chaining/Extensions/IExecuteNodeExtension.cs:29)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+ 
+(Filename: Assets/Game_Common/Scripts_Common/Common/ProjectTransfer.cs Line: 64)
+
+===Inhert ProjectMgrBase>>>PaiBlocksMgr
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Putao.GameCommon.ProjectTransfer:InnerInit(String) (at Assets/Game_Common/Scripts_Common/Common/ProjectTransfer.cs:64)
+Putao.GameCommon.ProjectTransfer:Init(String) (at Assets/Game_Common/Scripts_Common/Common/ProjectTransfer.cs:52)
+Putao.PaiBloks.InitAppNode:<OnBegin>m__2() (at Assets/Game_PaiBloks/Scripts/Game/StartProcessModule/InitAppNode.cs:33)
+Putao.PaiBloks.InitAppNode:OnExecute(Single) (at Assets/Game_PaiBloks/Scripts/Game/StartProcessModule/InitAppNode.cs:49)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.SequenceNode:OnExecute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/SequenceNode.cs:75)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.ExecuteNodeChain:OnExecute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/Extensions/ExecuteNodeChain.cs:28)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.<Execute>c__Iterator0:MoveNext() (at Assets/PTUGame/PTCore/Scripts/Chaining/Extensions/IExecuteNodeExtension.cs:29)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+ 
+(Filename: Assets/Game_Common/Scripts_Common/Common/ProjectTransfer.cs Line: 64)
+
+[SingletonComponent] An instance of PTGame.PTCheater.PTCheater is needed in the scene, so '(singleton)PTGame.PTCheater.PTCheater (UnityEngine.GameObject)' was created with DontDestroyOnLoad.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PTGame.PTCheater.PTSingletonComponent`1:get_Instance() (at Assets/PTUGame/PTCheater/PTSingletonComponent.cs:51)
+Putao.PaiBloks.InitAppNode:<OnBegin>m__2() (at Assets/Game_PaiBloks/Scripts/Game/StartProcessModule/InitAppNode.cs:34)
+Putao.PaiBloks.InitAppNode:OnExecute(Single) (at Assets/Game_PaiBloks/Scripts/Game/StartProcessModule/InitAppNode.cs:49)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.SequenceNode:OnExecute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/SequenceNode.cs:75)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.ExecuteNodeChain:OnExecute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/Extensions/ExecuteNodeChain.cs:28)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.<Execute>c__Iterator0:MoveNext() (at Assets/PTUGame/PTCore/Scripts/Chaining/Extensions/IExecuteNodeExtension.cs:29)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+ 
+(Filename: Assets/PTUGame/PTCheater/PTSingletonComponent.cs Line: 51)
+
 Request timed out while processing request "https://public-cdn.cloud.unity3d.com/config/production", HTTP error code 0
 .[UnityConnect] Request timed out.
-TrimDiskCacheJob: Current cache size 0mb
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.543695 seconds (Nothing changed)
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 351.9 MB.
-System memory in use after: 352.4 MB.
+Screen:256,now:7
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+PTGame.Core.AppUtility:ApplyAppDragThresholdByDPI() (at Assets/PTUGame/PTCore/Scripts/Platform/AppUtility.cs:55)
+Putao.PaiBloks.InitAppNode:<OnBegin>m__3() (at Assets/Game_PaiBloks/Scripts/Game/StartProcessModule/InitAppNode.cs:43)
+Putao.PaiBloks.InitAppNode:OnExecute(Single) (at Assets/Game_PaiBloks/Scripts/Game/StartProcessModule/InitAppNode.cs:49)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.SequenceNode:OnExecute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/SequenceNode.cs:75)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.ExecuteNodeChain:OnExecute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/Extensions/ExecuteNodeChain.cs:28)
+PTGame.Core.ExecuteNode:Execute(Single) (at Assets/PTUGame/PTCore/Scripts/Chaining/NodeSystem/Node/ExecuteNode.cs:73)
+PTGame.Core.<Execute>c__Iterator0:MoveNext() (at Assets/PTUGame/PTCore/Scripts/Chaining/Extensions/IExecuteNodeExtension.cs:29)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+ 
+(Filename: Assets/PTUGame/PTCore/Scripts/Platform/AppUtility.cs Line: 55)
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 5606.
-Total: 9.893290 ms (FindLiveObjects: 1.169775 ms CreateObjectMapping: 0.316051 ms MarkObjects: 8.243504 ms  DeleteObjects: 0.162828 ms)
+2020.07.24 17:18:38:262: 【UnityToNative】 >>>>cmd :PortalReady >>>> data: True
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PTGame.Core.PTDebug:LogWarning(Object, Object[])
+Putao.GameCommon.PTPortal:UnityToNative(PortalData) (at Assets/PTUGame/PTPortal/PTPortal.cs:331)
+Putao.GameCommon.PTPortal:Ready(Boolean) (at Assets/PTUGame/PTPortal/PTPortal.cs:432)
+Putao.PaiBloks.<RegisterUIEvent>c__AnonStorey0:<>m__0(Int64) (at Assets/Game_PaiBloks/Scripts/UI/UIPortalMenu.cs:37)
+UniRx.Subscribe`1:OnNext(Int64) (at Assets/PTUGame/PTUniRx/Scripts/Observer.cs:165)
+UniRx.Operators.FromMicroCoroutine:OnNext(Int64) (at Assets/PTUGame/PTUniRx/Scripts/UnityEngineBridge/Operators/FromCoroutine.cs:119)
+UniRx.<EveryCycleCore>c__Iterator5:MoveNext() (at Assets/PTUGame/PTUniRx/Scripts/UnityEngineBridge/Observable.Unity.cs:700)
+UniRx.InternalUtil.MicroCoroutine:Run() (at Assets/PTUGame/PTUniRx/Scripts/InternalUtil/MicroCoroutine.cs:70)
+UniRx.<RunUpdateMicroCoroutine>c__Iterator0:MoveNext() (at Assets/PTUGame/PTUniRx/Scripts/UnityEngineBridge/MainThreadDispatcher.cs:535)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/builduser/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+ 
+(Filename: Assets/PTUGame/PTPortal/PTPortal.cs Line: 331)
 
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.500102 seconds (Nothing changed)
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.497641 seconds (Nothing changed)
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.347112 seconds (Nothing changed)
-Server Came alive after 1582.518 ms
-Connect to CacheServer localhost:60714
-Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
- done. [Time: 113.781858 ms] 
-Disconnect from CacheServer
-Refreshing native plugins compatible for Editor in 72.38 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.96 ms.
-
------ Total AssetImport time: 2.145617s, AssetImport time: 0.192720s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
------ Cache Server detail: CacheServerIntegrate time: 0.000000s, CacheServer download: 0.062667s [0 B, 0.000000 mb/s]
------ Cache Server detail: Total assets requested: 1, Cached Assets: 0, Not available: 0, Not supported: 1.
------ Cache Server detail: CacheMove: 0.000000s, CacheDelete: 0.000000s.
-
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.358345 seconds (Nothing changed)
-[Package Manager] Server::Kill -- Server was shutdown
-Cleanup mono
-Checking for leaked weakptr:
-  Found no leaked weakptrs.
-##utp:{"type":"MemoryLeaks","allocatedMemory":18991707,"memoryLabels":[{"Default":3812},{"Thread":16},{"Manager":328},{"Texture":672},{"TextureCache":-672},{"FMOD":664},{"Physics":1},{"Serialization":29792},{"Terrain":224},{"String":34819},{"DynamicArray":32507},{"HashMap":18843520},{"Curl":1736},{"PoolAlloc":-224},{"Sprites":8},{"CloudService":-2560},{"VR":1144},{"EditorGui":280},{"EditorUtility":36040},{"AssetImporter":24},{"RestService":64},{"UnityConnect":9376},{"Collab":744},{"Upm":-608}]}

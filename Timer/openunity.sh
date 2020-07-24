@@ -7,4 +7,4 @@ Method_Name="$3" #方法名
 Method_Para="$4" #方法参数;隔开
 
 unitycmd="$UnityPath/Contents/MacOS/Unity"
-$unitycmd -projectPath $ProjPath -executeMethod $Method_Name -logFile "$DIR/openunity.txt"  -openpara $Method_Para
+$unitycmd -projectPath $ProjPath -batchmode -executeMethod $Method_Name -logFile "$DIR/openunity.txt"  -openpara $Method_Para
