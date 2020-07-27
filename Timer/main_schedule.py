@@ -1,17 +1,18 @@
 import time
-import  schedulecrap
+import schedulecrap
 import unityprocess
 import requestversion
+import os 
 
 app_version=requestversion.getAppLastNewVersion()
 appres_version=requestversion.getResVersion(app_version)
-print(app_version,appres_version)
 
-dot1_time="16:34"
-dot2_time="11:05"
+dot1_time="06:30"
+dot2_time="13:00"
 
 unity_path="/Applications/Unity2017.4.32.f1/Unity.app" #unity路径
-proj_path="/Users/admin/Desktop/Unity5.5Projects/PaiBloks_Platform/project_unity" #工程路径
+proj_path=os.path.abspath(os.getcwd()+"/../../project_unity") #工程路径
+print(proj_path)
 method_name="SelfCheckEditor.StartTest" #方法名
 method_para="%s:%s"%(app_version,appres_version) #方法参数:隔开
 print(method_para)
