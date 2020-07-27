@@ -4,11 +4,13 @@ import time
 import json
 import os
 
+dot1_time="11:10"
+dot2_time="11:05"
 
 UnityPath="/Applications/Unity2017.4.32.f1/Unity.app" #unity路径
-ProjPath="/Users/admin/Desktop/Unity5.5Projects/PTClassroom/classroom" #工程路径
-Method_Name="UnityModule.TestFun" #方法名
-Method_Para="打开了怎么说？收到没？？" #方法参数;隔开
+ProjPath="/Users/admin/Desktop/Unity5.5Projects/PaiBloks_Platform/project_unity" #工程路径
+Method_Name="SelfCheckEditor.StartTest" #方法名
+Method_Para="测试忽略，打开了怎么说？收到没？？" #方法参数;隔开
 
 def openunity():
     cmd='sh ./openunity.sh %s %s %s %s'%(UnityPath,ProjPath,Method_Name,Method_Para)
@@ -32,12 +34,14 @@ def kill_unity():
 
 
 def job():
-    print("do start...")
+    print(time.strftime("%Y-%m-%d %H:%M:%S",time.localtime()),": job start...")
     kill_unity()
     time.sleep(1)
     openunity()
 
-schedulecrap.run("10:23",job)
+schedulecrap.register(dot1_time,job)
+schedulecrap.register(dot2_time,job)
+schedulecrap.run()
 
 # 测试
 # while True:

@@ -3,8 +3,10 @@ import time
 
 running=False;
 
-def run(time_str,job):
+def register(time_str,job):
     schedule.every().day.at(time_str).do(job)
+
+def run():   
     running=True
     print("schedule runnnig...")
     while running:
